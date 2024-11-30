@@ -124,7 +124,7 @@ const MathLearningApp = () => {
       <div style={styles.container}>
         <h1 style={styles.gameOverText}>Zeit abgelaufen!</h1>
         <div style={styles.statsBox}>
-          <h2>Endstatistik</h2>
+          <h3>Endstatistik</h3>
           <p>Richtig: {correctCount}</p>
           <p>Falsch: {wrongCount}</p>
           <p>Zeit: {timeElapsed}</p>
@@ -173,10 +173,10 @@ const MathLearningApp = () => {
         ))}
       </div>
       <div style={styles.statsBox}>
-        <h2>Statistik</h2>
-        <p>Richtig: {correctCount}</p>
-        <p>Falsch: {wrongCount}</p>
-        <p>Zeit: {timeElapsed}</p>
+        <h3>Statistik</h3>
+        <p>Richtig: {correctCount} - 
+           Falsch: {wrongCount} - 
+           Zeit: {timeElapsed}</p>
         <h3>Falsche Aufgaben</h3>
         <div style={styles.scrollableList}>
           <ul>
@@ -227,7 +227,7 @@ const styles = {
     textAlign: 'left',
   },
   scrollableList: {
-    maxHeight: '100px',
+    maxHeight: '200px',
     overflowY: 'auto',
     border: '1px solid #ccc',
     padding: '5px',

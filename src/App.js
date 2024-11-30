@@ -1,10 +1,13 @@
 import React from 'react';
-import MathLearningApp from './MathLearningApp'; // Pfad anpassen, falls nötig
+import MathLearningApp from './MathLearningApp.js'; // Pfad anpassen, falls nötig
 
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: 'center', margin: '20px 0' }}>Grundschul-Lernapp</h1>
+      <h3 style={{ textAlign: 'center', margin: '20px 0' }}>
+        Grundschule Afferde für ♥2a♥ von hssw
+
+      </h3>
       <MathLearningApp />
     </div>
   );
