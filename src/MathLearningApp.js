@@ -106,7 +106,7 @@ const MathLearningApp = () => {
       const minutes = Math.floor(elapsed / 60);
       const seconds = elapsed % 60;
       setTimeElapsed(`${minutes}:${seconds < 10 ? '0' : ''}${seconds}`);
-      if (elapsed >= 150) {
+      if (elapsed >= 90) { //Zeit einstellen in Sekunden
         setIsGameOver(true);
         clearInterval(timer);
       }
