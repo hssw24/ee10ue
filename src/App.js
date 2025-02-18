@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <h3 style={{ textAlign: 'center', margin: '20px 0' }}>
-        GS Afferde für  ♥2a♥  von hssw
+        Für  ♥ GS Afferde ♥  von hssw
 
       </h3>
       <MathLearningApp />
